@@ -1,7 +1,12 @@
 public class Calculator
 {
-    public int Calculate(int a, int b)
+    public int Add(int a, int b)
     {
-        return a + b; // Сложение
+        return a + b;
+    }
+
+    public int Multiply(int a, int b)
+    {
+        return a * b;
     }
 }
