@@ -16,7 +16,7 @@ public class Calculator
     {
         if (b == 0)
         {
-            throw new ArgumentException("Деление на ноль!");
+            throw new ArgumentException("Деление на ноль невозможно");
         }
         return a / b;
     }
